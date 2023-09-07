@@ -57,10 +57,6 @@ onMounted(async () => {
         <div class="flex items-center">
           <div class="flex-shrink-0">
             <h1 class="font-bold text-white text-2xl">Title</h1>
-            <!--
-            <img class="h-12 float-left" src="/images/icon-1.png" alt="Ralf" />
-            <img class="h-10 mt-2 ml-1 float-left" src="/images/name-1.png" alt="Ralf" />
-            -->
           </div>
           <div class="hidden md:block">
             <div class="ml-10 flex items-baseline space-x-4">
