@@ -30,7 +30,7 @@ useMeta({
 
 const navigation = [{ name: 'Play', to: '/', current: false }]
 
-// wait for performance cookies change to either enable or disable third party performance vendors
+// watch to see if the player id changes
 watch(
   () => gameStore.player.gid,
   () => {
